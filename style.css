@@ -1,0 +1,59 @@
+/* Comments: I grouped each phrase in its own div in order to style them individually. #quote1container and #quote2container.  */
+body{
+    background-color: #000;
+    text-align: center;
+}
+.quote1{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 46px;
+    color: rgba(247, 180, 109, 0.605);
+/* I put fit content for width because, originally, it was taking all the lateral space. */
+    width: fit-content;
+    margin: 12px auto;
+}
+.time{
+    font-size: 80px;
+    color: rgb(204, 204, 153);
+    border: 8px rgb(204, 204, 153);
+/* I wanted to test different border styles by choosing the possible options VS Code gave me. */
+    border-style: ridge;
+    padding: 15px;
+    border-radius: 10px;
+}
+#quote1container{
+    background-color: green;
+    width: max-content;
+    margin: 0 auto 35px;
+    border-radius: 50%;
+    border: 8px solid goldenrod;
+    padding: 24px 100px;
+}
+.quote2{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
+    color: yellow;
+    width: fit-content;
+    margin: 12px auto;
+}
+.force{
+    border: 5px dashed #FFFF00;
+    width: fit-content;
+    padding: 15px;
+}
+.you{
+    font-size: 100px;
+    border: 5px solid #FFFF00;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 12px 56px;
+}
+#quote2container{
+    background-color: black;
+    padding: 24px 0 36px;
+    border: 10px solid #FFFF00;
+/* I put "max content" here for the div to take only the space of its content and not all the lateral space. */
+    width: max-content;
+    margin: 0 auto;
+    padding: 36px;
+}
+
